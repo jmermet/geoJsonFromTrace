@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?><gpx creator="Garmin Desktop App" version="1.1">
+
+  <metadata>
+    <link href="http://www.garmin.com">
+      <text>Garmin International</text>
+    </link>
+    <time>2017-09-09T12:04:21Z</time>
+    <bounds maxlat="35.583307966589928" maxlon="-4.571111965924501" minlat="34.914442989975214" minlon="-5.354097979143262" />
+  </metadata>
+
+  <trk>
+    <name>8241 à 16480 1</name>
+    <extensions>
+      <gpxx:TrackExtension>
+        <gpxx:DisplayColor>DarkGray</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="35.581670980900526" lon="-5.335101988166571" />
+      <trkpt lat="35.582873029634356" lon="-5.333182029426098" />
+      <trkpt lat="35.583249963819981" lon="-5.332340989261866" />
+      <trkpt lat="34.917251011356711" lon="-4.571111965924501" />
+    </trkseg>
+  </trk>
+
+</gpx>
