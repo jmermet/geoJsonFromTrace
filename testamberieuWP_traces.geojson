@@ -1,0 +1,1096 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": 
+            {
+                "ele": 0,
+                "name": "Position 1"
+            },
+             "geometry": 
+             {
+                "type": "Point",
+                "coordinates": [
+                        5.393,
+                        45.9504
+                    ]
+             }
+         }
+       , {
+            "type": "Feature",
+            "properties": 
+            {
+                "name": "tronçon 1"
+            },
+             "geometry": 
+             {
+                "type": "LineString",
+                "coordinates": [
+                [
+                        5.393,
+                        45.9504
+                    ],
+                [
+                        5.39209,
+                        45.9509
+                    ]
+                 ]
+             }
+         }
+,         {
+            "type": "Feature",
+            "properties": 
+            {
+                "ele": 0,
+                "name": "Position 2"
+            },
+             "geometry": 
+             {
+                "type": "Point",
+                "coordinates": [
+                        5.39209,
+                        45.9509
+                    ]
+             }
+         }
+       , {
+            "type": "Feature",
+            "properties": 
+            {
+                "name": "tronçon 2"
+            },
+             "geometry": 
+             {
+                "type": "LineString",
+                "coordinates": [
+                [
+                        5.39209,
+                        45.9509
+                    ],
+                [
+                        5.3909,
+                        45.9514
+                    ]
+                 ]
+             }
+         }
+,         {
+            "type": "Feature",
+            "properties": 
+            {
+                "ele": 0,
+                "name": "Position 3"
+            },
+             "geometry": 
+             {
+                "type": "Point",
+                "coordinates": [
+                        5.3909,
+                        45.9514
+                    ]
+             }
+         }
+       , {
+            "type": "Feature",
+            "properties": 
+            {
+                "name": "tronçon 3"
+            },
+             "geometry": 
+             {
+                "type": "LineString",
+                "coordinates": [
+                [
+                        5.3909,
+                        45.9514
+                    ],
+                [
+                        5.38969,
+                        45.9523
+                    ]
+                 ]
+             }
+         }
+,         {
+            "type": "Feature",
+            "properties": 
+            {
+                "ele": 0,
+                "name": "Position 4"
+            },
+             "geometry": 
+             {
+                "type": "Point",
+                "coordinates": [
+                        5.38969,
+                        45.9523
+                    ]
+             }
+         }
+       , {
+            "type": "Feature",
+            "properties": 
+            {
+                "name": "tronçon 4"
+            },
+             "geometry": 
+             {
+                "type": "LineString",
+                "coordinates": [
+                [
+                        5.38969,
+                        45.9523
+                    ],
+                [
+                        5.38853,
+                        45.9538
+                    ]
+                 ]
+             }
+         }
+,         {
+            "type": "Feature",
+            "properties": 
+            {
+                "ele": 0,
+                "name": "Position 5"
+            },
+             "geometry": 
+             {
+                "type": "Point",
+                "coordinates": [
+                        5.38853,
+                        45.9538
+                    ]
+             }
+         }
+       , {
+            "type": "Feature",
+            "properties": 
+            {
+                "name": "tronçon 5"
+            },
+             "geometry": 
+             {
+                "type": "LineString",
+                "coordinates": [
+                [
+                        5.38853,
+                        45.9538
+                    ],
+                [
+                        5.38806,
+                        45.9541
+                    ]
+                 ]
+             }
+         }
+,         {
+            "type": "Feature",
+            "properties": 
+            {
+                "ele": 0,
+                "name": "Position 6"
+            },
+             "geometry": 
+             {
+                "type": "Point",
+                "coordinates": [
+                        5.38806,
+                        45.9541
+                    ]
+             }
+         }
+       , {
+            "type": "Feature",
+            "properties": 
+            {
+                "name": "tronçon 6"
+            },
+             "geometry": 
+             {
+                "type": "LineString",
+                "coordinates": [
+                [
+                        5.38806,
+                        45.9541
+                    ],
+                [
+                        5.38698,
+                        45.9539
+                    ]
+                 ]
+             }
+         }
+,         {
+            "type": "Feature",
+            "properties": 
+            {
+                "ele": 0,
+                "name": "Position 7"
+            },
+             "geometry": 
+             {
+                "type": "Point",
+                "coordinates": [
+                        5.38698,
+                        45.9539
+                    ]
+             }
+         }
+       , {
+            "type": "Feature",
+            "properties": 
+            {
+                "name": "tronçon 7"
+            },
+             "geometry": 
+             {
+                "type": "LineString",
+                "coordinates": [
+                [
+                        5.38698,
+                        45.9539
+                    ],
+                [
+                        5.38497,
+                        45.9545
+                    ]
+                 ]
+             }
+         }
+,         {
+            "type": "Feature",
+            "properties": 
+            {
+                "ele": 0,
+                "name": "Position 8"
+            },
+             "geometry": 
+             {
+                "type": "Point",
+                "coordinates": [
+                        5.38497,
+                        45.9545
+                    ]
+             }
+         }
+       , {
+            "type": "Feature",
+            "properties": 
+            {
+                "name": "tronçon 8"
+            },
+             "geometry": 
+             {
+                "type": "LineString",
+                "coordinates": [
+                [
+                        5.38497,
+                        45.9545
+                    ],
+                [
+                        5.38456,
+                        45.954
+                    ]
+                 ]
+             }
+         }
+,         {
+            "type": "Feature",
+            "properties": 
+            {
+                "ele": 0,
+                "name": "Position 9"
+            },
+             "geometry": 
+             {
+                "type": "Point",
+                "coordinates": [
+                        5.38456,
+                        45.954
+                    ]
+             }
+         }
+       , {
+            "type": "Feature",
+            "properties": 
+            {
+                "name": "tronçon 9"
+            },
+             "geometry": 
+             {
+                "type": "LineString",
+                "coordinates": [
+                [
+                        5.38456,
+                        45.954
+                    ],
+                [
+                        5.38151,
+                        45.953
+                    ]
+                 ]
+             }
+         }
+,         {
+            "type": "Feature",
+            "properties": 
+            {
+                "ele": 0,
+                "name": "Position 10"
+            },
+             "geometry": 
+             {
+                "type": "Point",
+                "coordinates": [
+                        5.38151,
+                        45.953
+                    ]
+             }
+         }
+       , {
+            "type": "Feature",
+            "properties": 
+            {
+                "name": "tronçon 10"
+            },
+             "geometry": 
+             {
+                "type": "LineString",
+                "coordinates": [
+                [
+                        5.38151,
+                        45.953
+                    ],
+                [
+                        5.38119,
+                        45.9524
+                    ]
+                 ]
+             }
+         }
+,         {
+            "type": "Feature",
+            "properties": 
+            {
+                "ele": 0,
+                "name": "Position 11"
+            },
+             "geometry": 
+             {
+                "type": "Point",
+                "coordinates": [
+                        5.38119,
+                        45.9524
+                    ]
+             }
+         }
+       , {
+            "type": "Feature",
+            "properties": 
+            {
+                "name": "tronçon 11"
+            },
+             "geometry": 
+             {
+                "type": "LineString",
+                "coordinates": [
+                [
+                        5.38119,
+                        45.9524
+                    ],
+                [
+                        5.38025,
+                        45.9521
+                    ]
+                 ]
+             }
+         }
+,         {
+            "type": "Feature",
+            "properties": 
+            {
+                "ele": 0,
+                "name": "Position 12"
+            },
+             "geometry": 
+             {
+                "type": "Point",
+                "coordinates": [
+                        5.38025,
+                        45.9521
+                    ]
+             }
+         }
+       , {
+            "type": "Feature",
+            "properties": 
+            {
+                "name": "tronçon 12"
+            },
+             "geometry": 
+             {
+                "type": "LineString",
+                "coordinates": [
+                [
+                        5.38025,
+                        45.9521
+                    ],
+                [
+                        5.37939,
+                        45.9508
+                    ]
+                 ]
+             }
+         }
+,         {
+            "type": "Feature",
+            "properties": 
+            {
+                "ele": 0,
+                "name": "Position 13"
+            },
+             "geometry": 
+             {
+                "type": "Point",
+                "coordinates": [
+                        5.37939,
+                        45.9508
+                    ]
+             }
+         }
+       , {
+            "type": "Feature",
+            "properties": 
+            {
+                "name": "tronçon 13"
+            },
+             "geometry": 
+             {
+                "type": "LineString",
+                "coordinates": [
+                [
+                        5.37939,
+                        45.9508
+                    ],
+                [
+                        5.3775,
+                        45.95
+                    ]
+                 ]
+             }
+         }
+,         {
+            "type": "Feature",
+            "properties": 
+            {
+                "ele": 0,
+                "name": "Position 14"
+            },
+             "geometry": 
+             {
+                "type": "Point",
+                "coordinates": [
+                        5.3775,
+                        45.95
+                    ]
+             }
+         }
+       , {
+            "type": "Feature",
+            "properties": 
+            {
+                "name": "tronçon 14"
+            },
+             "geometry": 
+             {
+                "type": "LineString",
+                "coordinates": [
+                [
+                        5.3775,
+                        45.95
+                    ],
+                [
+                        5.37574,
+                        45.9501
+                    ]
+                 ]
+             }
+         }
+,         {
+            "type": "Feature",
+            "properties": 
+            {
+                "ele": 0,
+                "name": "Position 15"
+            },
+             "geometry": 
+             {
+                "type": "Point",
+                "coordinates": [
+                        5.37574,
+                        45.9501
+                    ]
+             }
+         }
+       , {
+            "type": "Feature",
+            "properties": 
+            {
+                "name": "tronçon 15"
+            },
+             "geometry": 
+             {
+                "type": "LineString",
+                "coordinates": [
+                [
+                        5.37574,
+                        45.9501
+                    ],
+                [
+                        5.37516,
+                        45.95
+                    ]
+                 ]
+             }
+         }
+,         {
+            "type": "Feature",
+            "properties": 
+            {
+                "ele": 0,
+                "name": "Position 16"
+            },
+             "geometry": 
+             {
+                "type": "Point",
+                "coordinates": [
+                        5.37516,
+                        45.95
+                    ]
+             }
+         }
+       , {
+            "type": "Feature",
+            "properties": 
+            {
+                "name": "tronçon 16"
+            },
+             "geometry": 
+             {
+                "type": "LineString",
+                "coordinates": [
+                [
+                        5.37516,
+                        45.95
+                    ],
+                [
+                        5.39532,
+                        45.9497
+                    ]
+                 ]
+             }
+         }
+,         {
+            "type": "Feature",
+            "properties": 
+            {
+                "ele": 0,
+                "name": "Position 1"
+            },
+             "geometry": 
+             {
+                "type": "Point",
+                "coordinates": [
+                        5.39532,
+                        45.9497
+                    ]
+             }
+         }
+       , {
+            "type": "Feature",
+            "properties": 
+            {
+                "name": "tronçon 17"
+            },
+             "geometry": 
+             {
+                "type": "LineString",
+                "coordinates": [
+                [
+                        5.39532,
+                        45.9497
+                    ],
+                [
+                        5.39634,
+                        45.9494
+                    ]
+                 ]
+             }
+         }
+,         {
+            "type": "Feature",
+            "properties": 
+            {
+                "ele": 0,
+                "name": "Position 2"
+            },
+             "geometry": 
+             {
+                "type": "Point",
+                "coordinates": [
+                        5.39634,
+                        45.9494
+                    ]
+             }
+         }
+       , {
+            "type": "Feature",
+            "properties": 
+            {
+                "name": "tronçon 18"
+            },
+             "geometry": 
+             {
+                "type": "LineString",
+                "coordinates": [
+                [
+                        5.39634,
+                        45.9494
+                    ],
+                [
+                        5.40171,
+                        45.9506
+                    ]
+                 ]
+             }
+         }
+,         {
+            "type": "Feature",
+            "properties": 
+            {
+                "ele": 0,
+                "name": "Position 3"
+            },
+             "geometry": 
+             {
+                "type": "Point",
+                "coordinates": [
+                        5.40171,
+                        45.9506
+                    ]
+             }
+         }
+       , {
+            "type": "Feature",
+            "properties": 
+            {
+                "name": "tronçon 19"
+            },
+             "geometry": 
+             {
+                "type": "LineString",
+                "coordinates": [
+                [
+                        5.40171,
+                        45.9506
+                    ],
+                [
+                        5.40136,
+                        45.953
+                    ]
+                 ]
+             }
+         }
+,         {
+            "type": "Feature",
+            "properties": 
+            {
+                "ele": 0,
+                "name": "Position 4"
+            },
+             "geometry": 
+             {
+                "type": "Point",
+                "coordinates": [
+                        5.40136,
+                        45.953
+                    ]
+             }
+         }
+       , {
+            "type": "Feature",
+            "properties": 
+            {
+                "name": "tronçon 20"
+            },
+             "geometry": 
+             {
+                "type": "LineString",
+                "coordinates": [
+                [
+                        5.40136,
+                        45.953
+                    ],
+                [
+                        5.40299,
+                        45.9556
+                    ]
+                 ]
+             }
+         }
+,         {
+            "type": "Feature",
+            "properties": 
+            {
+                "ele": 0,
+                "name": "Position 5"
+            },
+             "geometry": 
+             {
+                "type": "Point",
+                "coordinates": [
+                        5.40299,
+                        45.9556
+                    ]
+             }
+         }
+       , {
+            "type": "Feature",
+            "properties": 
+            {
+                "name": "tronçon 21"
+            },
+             "geometry": 
+             {
+                "type": "LineString",
+                "coordinates": [
+                [
+                        5.40299,
+                        45.9556
+                    ],
+                [
+                        5.39956,
+                        45.9564
+                    ]
+                 ]
+             }
+         }
+,         {
+            "type": "Feature",
+            "properties": 
+            {
+                "ele": 0,
+                "name": "Position 6"
+            },
+             "geometry": 
+             {
+                "type": "Point",
+                "coordinates": [
+                        5.39956,
+                        45.9564
+                    ]
+             }
+         }
+       , {
+            "type": "Feature",
+            "properties": 
+            {
+                "name": "tronçon 22"
+            },
+             "geometry": 
+             {
+                "type": "LineString",
+                "coordinates": [
+                [
+                        5.39956,
+                        45.9564
+                    ],
+                [
+                        5.39437,
+                        45.9568
+                    ]
+                 ]
+             }
+         }
+,         {
+            "type": "Feature",
+            "properties": 
+            {
+                "ele": 0,
+                "name": "Position 7"
+            },
+             "geometry": 
+             {
+                "type": "Point",
+                "coordinates": [
+                        5.39437,
+                        45.9568
+                    ]
+             }
+         }
+       , {
+            "type": "Feature",
+            "properties": 
+            {
+                "name": "tronçon 23"
+            },
+             "geometry": 
+             {
+                "type": "LineString",
+                "coordinates": [
+                [
+                        5.39437,
+                        45.9568
+                    ],
+                [
+                        5.39385,
+                        45.9584
+                    ]
+                 ]
+             }
+         }
+,         {
+            "type": "Feature",
+            "properties": 
+            {
+                "ele": 0,
+                "name": "Position 8"
+            },
+             "geometry": 
+             {
+                "type": "Point",
+                "coordinates": [
+                        5.39385,
+                        45.9584
+                    ]
+             }
+         }
+       , {
+            "type": "Feature",
+            "properties": 
+            {
+                "name": "tronçon 24"
+            },
+             "geometry": 
+             {
+                "type": "LineString",
+                "coordinates": [
+                [
+                        5.39385,
+                        45.9584
+                    ],
+                [
+                        5.39248,
+                        45.9595
+                    ]
+                 ]
+             }
+         }
+,         {
+            "type": "Feature",
+            "properties": 
+            {
+                "ele": 0,
+                "name": "Position 9"
+            },
+             "geometry": 
+             {
+                "type": "Point",
+                "coordinates": [
+                        5.39248,
+                        45.9595
+                    ]
+             }
+         }
+       , {
+            "type": "Feature",
+            "properties": 
+            {
+                "name": "tronçon 25"
+            },
+             "geometry": 
+             {
+                "type": "LineString",
+                "coordinates": [
+                [
+                        5.39248,
+                        45.9595
+                    ],
+                [
+                        5.38926,
+                        45.956
+                    ]
+                 ]
+             }
+         }
+,         {
+            "type": "Feature",
+            "properties": 
+            {
+                "ele": 0,
+                "name": "Position 10"
+            },
+             "geometry": 
+             {
+                "type": "Point",
+                "coordinates": [
+                        5.38926,
+                        45.956
+                    ]
+             }
+         }
+       , {
+            "type": "Feature",
+            "properties": 
+            {
+                "name": "tronçon 26"
+            },
+             "geometry": 
+             {
+                "type": "LineString",
+                "coordinates": [
+                [
+                        5.38926,
+                        45.956
+                    ],
+                [
+                        5.39121,
+                        45.9549
+                    ]
+                 ]
+             }
+         }
+,         {
+            "type": "Feature",
+            "properties": 
+            {
+                "ele": 0,
+                "name": "Position 11"
+            },
+             "geometry": 
+             {
+                "type": "Point",
+                "coordinates": [
+                        5.39121,
+                        45.9549
+                    ]
+             }
+         }
+       , {
+            "type": "Feature",
+            "properties": 
+            {
+                "name": "tronçon 27"
+            },
+             "geometry": 
+             {
+                "type": "LineString",
+                "coordinates": [
+                [
+                        5.39121,
+                        45.9549
+                    ],
+                [
+                        5.39177,
+                        45.9549
+                    ]
+                 ]
+             }
+         }
+,         {
+            "type": "Feature",
+            "properties": 
+            {
+                "ele": 0,
+                "name": "Position 12"
+            },
+             "geometry": 
+             {
+                "type": "Point",
+                "coordinates": [
+                        5.39177,
+                        45.9549
+                    ]
+             }
+         }
+       , {
+            "type": "Feature",
+            "properties": 
+            {
+                "name": "tronçon 28"
+            },
+             "geometry": 
+             {
+                "type": "LineString",
+                "coordinates": [
+                [
+                        5.39177,
+                        45.9549
+                    ],
+                [
+                        5.39153,
+                        45.9539
+                    ]
+                 ]
+             }
+         }
+,         {
+            "type": "Feature",
+            "properties": 
+            {
+                "ele": 0,
+                "name": "Position 13"
+            },
+             "geometry": 
+             {
+                "type": "Point",
+                "coordinates": [
+                        5.39153,
+                        45.9539
+                    ]
+             }
+         }
+       , {
+            "type": "Feature",
+            "properties": 
+            {
+                "name": "tronçon 29"
+            },
+             "geometry": 
+             {
+                "type": "LineString",
+                "coordinates": [
+                [
+                        5.39153,
+                        45.9539
+                    ],
+                [
+                        5.39278,
+                        45.9543
+                    ]
+                 ]
+             }
+         }
+,         {
+            "type": "Feature",
+            "properties": 
+            {
+                "ele": 0,
+                "name": "Position 14"
+            },
+             "geometry": 
+             {
+                "type": "Point",
+                "coordinates": [
+                        5.39278,
+                        45.9543
+                    ]
+             }
+         }
+
+     ],
+     "threshold" : 30
+}
