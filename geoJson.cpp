@@ -36,6 +36,8 @@ public:
     string cmt;
     string desc;
     string links;
+    string sym;
+    string type;
 
     Coords() {}
     Coords(const Coords &src) {
@@ -47,6 +49,8 @@ public:
         this->cmt = src.cmt;
         this->desc = src.desc;
         this->links = src.links;
+        this->sym = src.sym;
+        this->type = src.type;
     }
 };
 
@@ -63,12 +67,14 @@ static void printGeoJson(ostream &out, const vector<Coords> &coords) {
         if(first) first = false;
         else out << ", ";
 
+        // ici le point
         out <<  "        {" << endl <<
                 "            \"type\": \"Feature\"," << endl <<
                 "            \"properties\": " << endl <<
                 "            {" << endl <<
                 "                \"name\": \"" << (*it).name << "\"," << endl <<
                 "                \"time\": \"" << (*it).time << "\"," << endl <<
+                "                \"sym\": \"" << (*it).sym << "\"," << endl <<
                 "                \"cmt\": \"" << (*it).cmt << "\"," << endl <<
                 "                \"desc\": \"" << (*it).desc << "\"," << endl <<
                 "                \"links\": ["<< endl;
@@ -87,13 +93,19 @@ static void printGeoJson(ostream &out, const vector<Coords> &coords) {
         out << "             }" << endl;
         out << "         }" << endl;
 
-        // ici le segment
-        if (idx < size) {
+        // on regarde si le prochain est un  vrai WP (sym symbole non vide), si oui on ne fait pas de tronçon
+        it++;
+        bool prochain = true;
+        if ((*it).type == "waypoint") prochain = false;
+        it--;
+
+        // ici le segment de la trace fabriqué à partir du point en cours et du point suivant
+        if (idx < size and prochain and (*it).type == "trkpoint") {
             out <<  "       , {" << endl <<
                     "            \"type\": \"Feature\"," << endl <<
                     "            \"properties\": " << endl <<
                     "            {" << endl <<
-                    "                \"name\": \"tronçon " << idx <<  "\"" << endl <<
+                    "                \"name\": \"" << idx  <<  "\"" << endl <<
                     "            }," << endl  ;
             out << "             \"geometry\": " << endl;
             out << "             {" << endl;
@@ -120,7 +132,7 @@ static void printGeoJson(ostream &out, const vector<Coords> &coords) {
 
     out << endl;
     out << "     ]," << endl;
-    out << "     \"threshold\" : 30" << endl;
+    out << "     \"threshold\" : 50" << endl;
     out << "}" << endl;
 }
 
@@ -174,7 +186,7 @@ static bool processStream(istream &in, ostream &out = cout) {
                         else if (name == "name")
                             coord.name = p->value();
                     }
-
+                    coord.type = "trkpoint";
                     coords.push_back(coord);
 
                 }
@@ -205,6 +217,8 @@ static bool processStream(istream &in, ostream &out = cout) {
                             coord.cmt = p->value();
                         else if (name == "desc")
                             coord.desc = p->value();
+                        else if (name == "sym")
+                            coord.sym = p->value();
                         else if (name == "link")
                             //coord.desc = p->value();
                             for (xml_attribute<> *attr = p->first_attribute(); attr; attr = attr->next_attribute()) {
@@ -213,7 +227,7 @@ static bool processStream(istream &in, ostream &out = cout) {
                                     coord.links = attr->value();
                             }
                     }
-
+                    coord.type = "waypoint";
                     coords.push_back(coord);
 
 
